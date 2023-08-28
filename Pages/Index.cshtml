@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
 
 <html>
 <head>
@@ -18,6 +22,10 @@
         </div>
         <div class="info">
             <button id="addCharacter">Add Character</button>
+            <p></p>
+        </div>
+        <div class="info">
+            <button id="delCharacter">Delete Character</button>
             <p></p>
         </div>
         Selected Character info:

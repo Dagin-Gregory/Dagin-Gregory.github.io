@@ -77,6 +77,10 @@ export default class playerCharacter{
         return x + "," + y;
     }
 
+    get name() {
+        return this.#charName;
+    }
+
     get coords() {
         return [this.#x, this.#y];
     }
